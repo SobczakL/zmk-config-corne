@@ -25,11 +25,10 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
           }; 
+          lt: layer_tap {
+               tapping-term-ms = <350>; 
+          }
         };
-
-        &lt {
-                tapping-term-ms = <350>;
-        }
 
         keymap {
                 compatible = "zmk,keymap";
